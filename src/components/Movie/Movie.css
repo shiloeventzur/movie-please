@@ -1,0 +1,24 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  justify-content: flex-start;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  width: 140px;
+  text-align: center;
+}
+
+.poster {
+  height: 210px;
+  width: 140px;
+}
+
+.movie:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

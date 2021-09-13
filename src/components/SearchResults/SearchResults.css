@@ -1,0 +1,22 @@
+.spinner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+
+#search-results-title {
+  font-family: "Roboto", cursive;
+  margin-bottom: 2%;
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 2.5vw;
+  text-align: center;
+  text-decoration: underline;
+}

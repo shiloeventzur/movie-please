@@ -1,0 +1,29 @@
+body {
+  /* Create gradient backgroud with opacity*/
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+  opacity: 0.93;
+
+  /* Place the gradient backgrond above the backround image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Set background image */
+
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Set all but the gradeint witout opacity */
+#app {
+  opacity: 1;
+}

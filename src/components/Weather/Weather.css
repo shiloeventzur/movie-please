@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.weather-brief {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: center;
+}
+
+#temperature {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.weather-brief:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#description {
+  font-size: 15px;
+  font-weight: 300;
+}

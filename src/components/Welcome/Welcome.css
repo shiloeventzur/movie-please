@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+#welcome-text {
+  font-family: "Roboto", cursive;
+  margin-top: 10%;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#title-line {
+  font-weight: 900;
+  font-size: 4vw;
+}
+
+#description-line {
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+#enjoy {
+  margin-top: 3%;
+  font-family: "Caveat";
+  font-weight: 300;
+  font-size: 4vw;
+}

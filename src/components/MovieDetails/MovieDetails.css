@@ -1,0 +1,53 @@
+.movie-details {
+  display: flex;
+  color: aliceblue;
+  margin: 5% 10%;
+  font-family: "Roboto";
+  justify-content: space-evenly;
+}
+
+.poster-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.title-year-genre-plot {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.year-genre {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.rank {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.title-details {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.year-details {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.genre-details {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.plot {
+  font-weight: 300;
+  font-size: 20px;
+  width: 70%;
+}
